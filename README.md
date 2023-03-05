@@ -1,4 +1,4 @@
-# GrowGuardian for HackMerced VIII
+# GrowGuardian (for HackMerced VIII)
 A project aiming to provide live crop detection that uses climate sensors to determine effective crop yields.
 
 ## Inspiration
