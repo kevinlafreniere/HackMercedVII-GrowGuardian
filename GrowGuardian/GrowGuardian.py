@@ -109,7 +109,7 @@ def data_receive():
         value = data.decode()
         if not value.isspace() and value:
             smol_list = value.split('x')
-            if len(smol_list) > 1:
+            if len(smol_list) > 1 and not smol_list[0] == 'DHT':
                 temp = float(smol_list[0])
                 humi = float(smol_list[1])
                 print(temp, humi)
